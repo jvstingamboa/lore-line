@@ -1,0 +1,803 @@
+.signupAndLogin{
+    background: black center/cover url("../images/LoginBackGround.jpg") no-repeat;
+    height: 100vh;
+    width: 100vw;
+    
+   
+}
+
+.homePage{
+    background: black center/cover url("../images/HomePageBackGround.jpg") no-repeat;
+    height: 1000vh;
+    width:100vw;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+.float-container {
+   padding: 20px;
+}
+
+.float-child {
+   width: 50%;
+   float: left;
+   padding: 20px;
+  
+}  
+
+.float-child2 {
+   width: 50%;
+   float: right;
+   padding: 20px;
+   
+}  
+
+.loginBox
+{
+    margin-top: 50%;
+    width: 360px;
+    height:400px;
+    margin-top: 0px;
+   margin-left: 300px;
+   
+
+}
+
+.signUpBox
+{
+    margin-top: 50%;
+    width: 360px;
+    height:400px;
+    margin-top: 0px;
+   margin-right: 300px;
+
+}
+
+.signUpBox{
+   background-color:rgba(255, 255, 255, 0.842);
+   box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+   border-radius: 20px;  
+   color:rgb(0, 0, 0);
+   font-family: 'Goudy Old Style', 'Times New Roman', Times, serif;
+}
+
+.loginBox{
+    background-color:rgba(255, 255, 255, 0.842);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+    border-radius: 20px;  
+    color:rgb(0, 0, 0);
+    font-family: 'Goudy Old Style', 'Times New Roman', Times, serif;
+ }
+ header{
+    padding: 5px 0px;
+    background-color: white;
+ }
+
+ .clearfix{
+	clear: both;
+}
+
+.blogName{
+    font-family: Goudy Old Style;
+    font-size: 36px;
+    color:black;
+    margin-top: -10px;
+}
+
+ .container
+ {
+   width: 1440px;
+   /*height: 2px;*/
+   max-width: 100%;
+   margin: 0 auto;
+ }
+
+ .col-div-6
+ {
+    width: 28%;
+    float: left;
+    height: 46px;
+ }
+ .col-div-7
+ {
+    width: 33%;
+    float: left;
+    height: 46px;
+ }
+
+
+ .form-outline{
+   display:inline-block;
+   vertical-align: top;
+    width:300px;
+    background-color: white;
+    color:black;
+    margin-left: 80px;
+   
+ }
+
+ .search-button{
+   display:inline-block;
+   vertical-align: top;
+   width: 30px;
+   height: 10px;
+   margin-left: -5px;
+   
+ }
+
+ .btn-outline-success{
+   color:white;
+   border-color:black;
+   background-color: rgb(36, 36, 205);
+ }
+
+ .btn-outline-success:hover{
+   background-color: rgb(47, 47, 241);
+ }
+
+ input.form-control{
+    background-color: white;
+    color:black;
+ }
+
+ .nav{
+    float: right;
+    font-family: Goudy Old Style;
+    font-size: 20px;
+ }
+
+ .nav li
+ {
+    list-style: none;
+    float: left;
+    padding: 3px 20px;
+ }
+
+ .nav li a{
+    text-decoration:none;
+    color: black;
+ }
+
+ .banner-section{
+    background: white;
+    height:400px;
+    overflow: hidden;
+ }
+
+ .heading{
+    color: white;
+    font-size:40px;
+    letter-spacing:1px;
+    margin-top:14%;
+ }
+ .frame
+ {
+    background-color: white;
+    color: black;
+    width:1500px;
+    height:50px;
+    margin:auto;
+ }
+
+ cardBody{
+   min-height: 60vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width:1000px;
+   margin-top: 30px;
+   margin-left: 270px;
+ }
+
+ .container-swiper{
+   width:400px;
+ }
+
+ .card{
+   background: #ffffff;
+   border-radius: 1rem;
+   width: 300px;
+ }
+ .card .image-box{
+   height: 200px;
+   width:300px;
+   border-radius: 1rem;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+
+ }
+
+ .card .image-box img{
+   height:100%;
+   width:100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   border-radius: 1rem;
+  
+ }
+ 
+ .card .profile-details{
+   display: flex;
+   align-items: center;
+   column-gap: 15px;
+   padding:10px;
+ }
+
+ .card .profile-details img{
+   height:40px;
+   width:40px;
+   border-radius:50%;
+ }
+
+ .card .profile-details .name{
+   font-size: 15px;
+   font-weight:500px;
+ }
+
+ .card .profile-details .category{
+   font-size: 15px;
+   font-weight:700px;
+   color:blue;
+ }
+
+ .card .profile-details .date{
+   font-size: 12px;
+   font-weight:900px;
+   color:dimgray;
+ }
+
+ .card .profile-details .job{
+   font-size:12px;
+   font-weight: 500px;
+ }
+ 
+ /*11/11/2023*/
+
+ .swiper-navBtn {
+   color: blue;
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+ }
+ .swiper-navBtn::before,
+ .swiper-navBtn::after {
+   font-size: 10px;
+   
+ }
+
+ .swiper-pagination-bullet {
+   background-color: #000;
+ }
+
+ /*Right and left Boxes*/
+
+ .rightBox{
+   display:inline-block;
+   vertical-align: top;
+   /*float: right;*/
+   width:25%;
+   padding-right:400px;
+   margin-top:50px;
+   margin-left:-220px;
+ }
+
+ .favorites-title{
+      width: 600px;
+      height:60px;
+      margin-left: 280px;
+      margin-bottom:-100px;
+ }
+
+ .title-box{
+   background-color:white;
+   width: 300px;
+   height:60px;
+   border-radius: 1rem;
+ }
+
+ .fave{
+   font-size: 40px;
+   padding-left: 20px;;
+ }
+
+ .leftBox{
+   display:inline-block;
+   vertical-align: top;
+   width: 650px;
+   height:500px;
+   margin-left: 280px;
+   margin-right: 300px;
+   /*margin-right: 5000px;*/
+   margin-top:200px;
+   background-color: white;
+ }
+
+ .bigCard{
+   width: 650px;
+   height:500px;
+   background-color:  white;
+ }
+
+ .feature-article{
+      font-size:50px;
+ }
+ .card-column{
+   background-color:  white;
+   padding: 20px;
+   width:250px;
+   margin-top: 30px;
+   font-size:2px; 
+   border-radius: 1rem;
+ }
+
+ .side-article{
+   font-size:16px;
+ }
+
+ .side-card{
+   height:100%;
+   width:100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+ }
+
+ .side-article-title{
+   margin-left: 45px;
+   margin-right: 500px;
+   background-color: white;
+   width: 170px;
+   font-size: 20px;
+   border-radius: 1rem;
+   padding: 5px;
+
+ }
+
+ /*Dropdown Bar Css*/
+
+ .col-div-8
+ {
+    width: 4%;
+    height: 36px;
+    display: inline-block;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+ }
+
+.user-file{
+   position:absolute;
+   bottom:0;
+   outline:none;
+   color:transparent;
+   width:100%;
+   box-sizing: border-box;
+   
+ }
+
+ .user-file::-webkit-file-upload-button{
+   visibility: hidden;
+ }
+
+
+ .profile-pic{
+   height: 3rem;
+   width: auto;
+   cursor: pointer;
+   align-items: center;
+   border-radius: 2rem;
+   margin:auto;
+   position:relative;
+ }
+
+.fa-lg{
+   font-size: 1em;
+   width: auto;
+   cursor: pointer;
+   align-items: center;
+   border-radius: 2rem;
+   margin:auto;
+   position:relative;
+ };
+
+
+ .dropdown {
+   display: inline-block;
+   position: relative;
+ }
+
+ button:hover{
+   background-color:#ddd;
+ }
+ 
+ .dropdown-options {
+   display: none;
+   position: absolute;
+   overflow: auto;
+   background-color:#fff;
+   border-radius:5px;
+   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+ }
+ 
+ .dropdown:hover .dropdown-options {
+   display: block;
+ }
+ 
+ .dropdown-options a {
+   display: block;
+   color: #000000;
+   padding: 5px;
+   text-decoration: none;
+   padding:20px 40px;
+ }
+ 
+ .dropdown-options a:hover {
+   color: #0a0a23;
+   background-color: #ddd;
+   border-radius:5px;
+ }
+
+ /*Home Page Css*/
+
+ .createPost{
+    background: black center/cover url("../images/MountainBook.jpg") no-repeat;
+   
+   
+
+ }
+
+ .post-area{
+
+   height: 800px;
+   width: 600px;
+   margin-top: 80px;
+   margin-left: 450px;
+ }
+
+ .postBox{
+   height:800px;
+   background-color: white;
+   border-radius: 1rem;
+ }
+
+ .postBox-title{
+   margin-left:150px;
+   font-family: 'Goudy Old Style';
+   
+
+ }
+
+ .default-img1{
+   width:260px;
+   height:150px;
+ }
+
+ .create-post-title{
+   margin-left: 160px;
+   margin-top: 20px;
+   width:300px;
+ }
+
+ .image-placeholder{
+   background-color: grey;
+   width:260px;
+   height:150px;
+   margin-left:185px;
+ }
+
+ .upload-title{
+   margin-left: 230px;
+   font-family: 'Goudy Old Style';
+   font-size:20px;
+ }
+
+ .create-post-content{
+   margin-left: 60px;
+   margin-top:40px; 
+   width: 500px;
+   height: 300px;
+
+ }
+
+ .postBox .btn-primary{
+   margin-left: 500px;
+ }
+
+ .upload-image{
+   margin-left: 260px;
+   margin-top: 20px;
+ }
+
+ /*article-template css*/
+
+ .article-containter{
+   width: 1000px;
+   height:900px;
+   margin-top: 40px;
+   margin-left: 250px;
+   
+   
+ }
+
+ .article-box{
+   width: 1000px;
+   height:900px;
+   margin-top: 40px;
+   margin-left: 250px;
+   border-radius: 1rem;
+   background-color: white;
+ }
+
+ .article-template-title{
+   font-size:60px;
+   margin-left: 370px;
+   font-family: 'Goudy Old Style';
+
+ }
+
+ .article-img-placeholder{
+   width:650px;
+   height: 400px;
+   margin-top: 40px;
+   margin-left: 180px;
+   background-color: grey;
+ }
+
+ .article-info{
+   font-size:20px;
+   font-family: 'Goudy Old Style';
+   margin-top: 50px;
+   margin-left: 20px;
+ }
+
+ body.article-template{
+   background: black center/cover url("../images/Forest.jpg") no-repeat;
+ }
+ 
+ /*Search Page css*/
+
+ .search-page{
+   background: black center/cover url("../images/Forest.jpg") no-repeat;
+   height:100vh;
+ }
+
+ /*Search Page*/
+
+ .search-box{
+
+  width: 1000px;
+  height: 700px;
+  background-color: white;
+  margin-left:250px;
+  margin-top: 60px;
+  border-radius: 1rem;
+  
+
+}
+
+.search-container{
+  width: 800px;
+  height: 600px;
+  float: left;
+  margin-left: 100px;
+  margin-top: -10px;
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+
+.col-lg-6 .card{
+width: 350px;
+height: 150px;
+}
+
+.card-img{
+height:150px;
+width: 150px;
+}
+
+.h-100 .card-title1{
+font-size: 18px;
+font-family: 'Goudy Old Style';
+}
+
+.h-100 .card-title{
+font-size: 21px;
+font-family: 'Goudy Old Style';
+}
+
+.h-100 .card-text{
+font-size: 15px;
+font-family: 'Goudy Old Style';
+}
+
+.h-100 .card-text2{
+font-size: 15px;
+font-family: 'Goudy Old Style';
+margin-bottom: 0.1rem;
+}
+
+.h-100 .btn-primary{
+  margin-left: 20px;
+  margin-top:5px;
+}
+
+.search-title{
+font-family: 'Goudy Old Style';
+margin-left: 350px;
+font-size: 60px;
+}
+
+/*template css*/
+
+.article-text-holder{
+
+  width: 800px;
+  height: 500px;
+  border-color: black;
+  margin-left:110px;
+  margin-top:20px;
+ }
+
+ .article-containter{
+  width: 1000px;
+  height:900px;
+  margin-top: 40px;
+  margin-left: 250px;
+  
+  
+}
+
+.article-box{
+  width: 1000px;
+  height:1100px;
+  margin-top: 40px;
+  margin-left: 250px;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.article-template-title{
+  font-size:60px;
+  margin-left: 370px;
+  font-family: 'Goudy Old Style';
+
+}
+
+.article-img-placeholder{
+  width:650px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 180px;
+  background-color: grey;
+}
+
+.article-info{
+  font-size:20px;
+  font-family: 'Goudy Old Style';
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.article-template{
+  background: black center/cover url("../images/Forest.jpg") no-repeat;
+}
+
+/*settings page*/
+
+.settingsPage{
+  background: black center/cover url("../images/Forest.jpg") no-repeat;
+}
+
+.post-box{
+  height: 900px;
+  width: 900px;
+  margin-left: 300px;
+  margin-top: 85px;
+  background-color: white;
+  border-radius: 1rem;
+
+}
+
+.post-container .card{
+background: #ffffff;
+border-radius: 1rem;
+width: 300px;
+margin-left:20px;
+height: 350px;
+float:left;
+
+
+}
+
+.post-container{
+  height: 700px;
+  width: 700px;
+  float:left;
+  margin-left:80px;
+  margin-top: 40px;
+  overflow: hidden;
+  overflow-y: scroll;
+  display: flex;
+  
+}
+
+.results-form{
+  width: 200px;
+  display: inline-block; 
+  vertical-align: top;
+}
+
+.settings-title{
+  font-size: 80px;
+  font-family: 'Goudy Old Style';
+margin-left: 300px;
+}
+
+
+
+
+ @media screen and (max-width: 320px) {
+   
+   .cardBody{
+      width:auto;
+      height:auto;
+   }
+   .swiper{
+
+      width:auto;
+      height:500px;
+   }
+   .swiper-navBtn {
+      display:none;
+    }
+    
+    .container
+ {
+   width: 320px;
+   max-width: 100%;
+   margin: 0 auto;
+ }
+
+ .blogName{
+    font-family: Goudy Old Style;
+    font-size: 22px;
+    color:black;
+    margin-top: 10px;
+}
+
+.col-div-6
+ {
+    width: 40%;
+    float: left;
+    height: 46px;
+ }
+
+ .nav{
+    float: right;
+    font-family: Goudy Old Style;
+    font-size: 15px;
+    width: 130px;
+    margin-left: 10px;
+    margin-right: -20px;
+    margin-top: 15px;
+ }
+
+ .nav li
+ {
+    list-style: none;
+    float: left;
+    padding: 3px 2px;
+ }
+
+ 
+ }
+ 
+
+
+ 

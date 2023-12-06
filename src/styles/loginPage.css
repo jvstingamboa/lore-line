@@ -1,0 +1,208 @@
+.signupAndLogin{
+    
+background: black center  cover url("../images/LoginBackGround.jpg") no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+
+
+   
+}
+
+.homePage{
+    background: black center/cover url("../images/HomePageBackGround.jpg") no-repeat;
+    height: 1000vh;
+    width:100vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.float-container {
+   padding: 20px;
+}
+
+.float-child {
+   width: 50%;
+   float: left;
+   padding: 20px;
+  
+}  
+
+.float-child2 {
+   width: 50%;
+   float: right;
+   padding: 20px;
+   
+}  
+
+.loginBox
+{
+    margin-top: 50%;
+    width: 360px;
+    height:400px;
+    margin-top: 0px;
+    margin-left: 300px;
+    background-image:radial-gradient(violet, indigo);
+    margin:auto;
+   
+
+}
+
+.link{
+   color: rgb(69, 252, 69);
+}
+
+.signUpBox
+{
+    margin:auto;
+    width: 360px;
+    height:480px;
+
+}
+
+.signUpBox{
+   background-color:rgba(255, 255, 255, 0.842);
+   box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+   border-radius: 20px;  
+   color:rgb(0, 0, 0);
+   font-family: 'Goudy Old Style', 'Times New Roman', Times, serif;
+}
+
+.loginBox{
+    background-color:rgba(255, 255, 255, 0.842);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+    border-radius: 20px;  
+    color:rgb(0, 0, 0);
+    font-family: 'Goudy Old Style', 'Times New Roman', Times, serif;
+ }
+ header{
+    padding: 5px 0px;
+    background-color: white;
+ }
+
+ .clearfix{
+	clear: both;
+}
+
+.blogName{
+    font-family: Goudy Old Style;
+    font-size: 36px;
+    color:black;
+    margin-top: -10px;
+}
+
+ .container
+ {
+   width: 1440px;
+   height: 2px;
+   max-width: 100%;
+   margin: 0 auto;
+ }
+
+ .col-div-6
+ {
+    width: 28%;
+    float: left;
+    height: 46px;
+ }
+ .col-div-7
+ {
+    width: 33%;
+    float: left;
+    height: 46px;
+ }
+
+ .form-outline{
+    width:300px;
+    background-color: white;
+    color:black;
+    margin-left: 80px;
+   
+ }
+
+ input.form-control{
+    background-color: white;
+    color:black;
+ }
+
+ .nav{
+    float: right;
+    font-family: Goudy Old Style;
+    font-size: 20px;
+ }
+
+ .nav li
+ {
+    list-style: none;
+    float: left;
+    padding: 3px 20px;
+ }
+
+ .nav li a{
+    text-decoration:none;
+    color: black;
+ }
+
+ .banner-section{
+    background: white;
+    height:400px;
+    overflow: hidden;
+ }
+
+ .heading{
+    color: white;
+    font-size:40px;
+    letter-spacing:1px;
+    margin-top:14%;
+ }
+ .frame
+ {
+    background-color: white;
+    color: black;
+    width:1500px;
+    height:50px;
+    margin:auto;
+ }
+
+ @media screen and (max-width: 320px) {
+    
+    .container
+ {
+   width: 320px;
+   height: 2px;
+   max-width: 100%;
+   margin: 0 auto;
+ }
+
+ .blogName{
+    font-family: Goudy Old Style;
+    font-size: 22px;
+    color:black;
+    margin-top: 10px;
+}
+
+.col-div-6
+ {
+    width: 40%;
+    float: left;
+    height: 46px;
+ }
+
+ .nav{
+    float: right;
+    font-family: Goudy Old Style;
+    font-size: 15px;
+    width: 130px;
+    margin-left: 10px;
+    margin-right: -20px;
+    margin-top: 15px;
+ }
+
+ .nav li
+ {
+    list-style: none;
+    float: left;
+    padding: 3px 2px;
+ }
+
+ }
